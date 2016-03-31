@@ -1,8 +1,1 @@
-
-
-
-Hello world!
-
-Hello everyone!
-
-change number 3
+My applications will go here ...
