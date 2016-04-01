@@ -10,3 +10,4 @@ def fav_foods
 	food_array.each { |food| puts "I like #{food} too!" }
 end		
 fav_foods
+# blah blah blah
