@@ -1,3 +1,72 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* NAV STYLES */
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(36, 35, 35, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(248, 248, 248, 1);
+    border-width: 1px;
+    border-radius: 4px;
+    font-weight:700;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(5, 5, 5, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(20, 18, 18, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(10, 9, 9, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default div.container-fluid {
+    margin-right: 500px;
+}
+
+/* GENERAL */
+h1 {
+    font-family: Tahoma, sans-serif;
+    color: black;
+    text-align:center;
+}
+
+p#index {
+    text-align:center;
+}
+
+
+/* FOOTER */
+footer {
+    background-color:#000;
+    height:50px;
+    margin-bottom:0;
+}
+
+footer p {
+    color: #fff;
+    text-align:center;
+    font-size:24px;
+}
