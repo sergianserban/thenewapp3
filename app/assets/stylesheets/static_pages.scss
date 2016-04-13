@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// BODY
+
+body {
+    height: 50.000em;
+}
 /* NAV STYLES */
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(36, 35, 35, 1);
@@ -61,6 +66,10 @@ img {
     size:100%;
 }
 
+.products {
+    margin-bottom:200px;
+    margin-top:70px;
+}
 
 /* FOOTER */
 footer {
