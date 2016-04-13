@@ -57,12 +57,25 @@ p#index {
     text-align:center;
 }
 
+img {
+    size:100%;
+}
+
 
 /* FOOTER */
 footer {
     background-color:#000;
     height:50px;
     margin-bottom:0;
+    clear:both;
+}
+
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer p {
